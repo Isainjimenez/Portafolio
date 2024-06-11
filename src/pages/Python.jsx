@@ -1,5 +1,11 @@
 import React from 'react';
 
+import py1 from '../img/cesar.png';
+import py2 from '../img/orden.png';
+import py3 from '../img/clave.png';
+import py4 from '../img/num.png';
+
+
 const Python = () => {
   return (
     <div className="card">
@@ -8,7 +14,7 @@ const Python = () => {
         <h3 className="section-title">Cesar</h3>
         <div className="flex items-center">
           <a href="https://github.com/Isainjimenez/metodos_de_encriptacion_cesar" target="_blank" rel="noopener noreferrer">
-            <img src="src/img/cesar.png" alt="C++" className="mr-4" />
+            <img src={py1} alt="C++" className="mr-4" />
           </a>
           <p className="description">
           <p>Descripción del Código:
@@ -51,7 +57,7 @@ const Python = () => {
          <p> El resultado encriptado se muestra en la consola.
           </p></p></p></p></p></p></p></p></p></p></p></p>
           <a href="https://github.com/Isainjimenez/Encriptado-Orden" target="_blank" rel="noopener noreferrer">
-            <img src="src/img/orden.png" alt="C++" className="ml-4" />
+            <img src={py2} alt="C++" className="ml-4" />
           </a>
         </div>
       </div>
@@ -60,7 +66,7 @@ const Python = () => {
         <h3 className="section-title">Matrices-y-Clave</h3>
         <div className="flex items-center">
           <a href="https://github.com/Isainjimenez/Matrices-y-Clave" target="_blank" rel="noopener noreferrer">
-            <img src="src/img/clave.png" alt="" className="mr-4" />
+            <img src={py3} alt="" className="mr-4" />
           </a>
           <p className="description">
           <p>Encriptado:
@@ -95,7 +101,7 @@ const Python = () => {
           <p>El resultado encriptado se muestra en la consola.
           </p></p></p></p></p></p></p></p></p></p></p></p>
           <a href="https://github.com/Isainjimenez/Series-de-N-meros" target="_blank" rel="noopener noreferrer">
-            <img src="src/img/num.png" alt="" className="ml-4" />
+            <img src={py4} alt="" className="ml-4" />
           </a>
         </div>
       </div>
