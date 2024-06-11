@@ -1,5 +1,7 @@
 import React from 'react';
 
+import mtl from '../img/matlab.png'
+
 const Matlab = () => {
   return (
     <div className="card">
@@ -9,7 +11,7 @@ const Matlab = () => {
         <h3 className="section-title">combinaciones multiplicaciones sumas potencias</h3>
         <div className="flex items-center">
           <a href="https://github.com/Isainjimenez/combinacionesmultiplicaciones-sumaspotencias-en-matlab" target="_blank" rel="noopener noreferrer">
-            <img src="src/img/matlab.png" alt="C++" className="mr-4" />
+            <img src={mtl} alt="C++" className="mr-4" />
           </a>
           <p className="description">
          <p> Este algoritmo en MATLAB realiza cálculos relacionados con combinaciones, multiplicaciones, sumas y potencias. Permíteme explicarte paso a paso lo que hace:
