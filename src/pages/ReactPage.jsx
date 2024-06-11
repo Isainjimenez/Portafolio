@@ -1,5 +1,8 @@
 import React from 'react';
 
+import poke from '../img/poke.png'
+import hello from '../img/hello.png'
+
 const ReactPage = () => {
   return (
     <div className='card'>
@@ -9,7 +12,7 @@ const ReactPage = () => {
         <h3 className="section-title">Pokedex</h3>
         <div className="flex items-center">
           <a href="https://github.com/Isainjimenez/pokeapi" target="_blank" rel="noopener noreferrer">
-            <img src="src/img/poke.png" alt="React" className="mr-4" />
+            <img src={poke} alt="React" className="mr-4" />
           </a>
           <p className="description">
           <p> Funcionalidad:
@@ -47,7 +50,7 @@ const ReactPage = () => {
           </p></p></p></p></p></p></p></p>
 
           <a href="https://github.com/Isainjimenez/Primer-programa-en-react" target="_blank" rel="noopener noreferrer">
-            <img src="src/img/hello.png" alt="C++" className="ml-4" />
+            <img src={hello} alt="C++" className="ml-4" />
           </a>
         </div>
       </div>
