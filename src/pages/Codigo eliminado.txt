@@ -1,0 +1,8 @@
+<Link className="flex-grow flex flex-col items-center hover:text-gray-300" to="/cpp">
+                <img src={cppIcon} alt="C++" className="w-6 h-6" />
+                <span>C++</span>
+              </Link>
+              <Link className="flex-grow flex flex-col items-center hover:text-gray-300" to="/java">
+                <img src={javaIcon} alt="Java" className="w-6 h-6" />
+                <span>Java</span>
+              </Link>
