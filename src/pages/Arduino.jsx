@@ -9,7 +9,7 @@ const Arduino = () => {
         <h3 className="section-title">La cucaracha</h3>
         <div className="flex items-center">
           <a href="https://github.com/Isainjimenez/CucarachaArduino" target="_blank" rel="noopener noreferrer">
-            <img src="src/img/bot.png" alt="C++" className="mr-4" />
+            <img src="/img/bot.png" alt="C++" className="mr-4" />
           </a>
           <p className="description">
           Este código en formato .ino es un programa para Arduino que reproduce la melodía de “La Cucaracha” utilizando un buzzer o altavoz conectado al pin 3. Permíteme explicarte cómo funciona:
